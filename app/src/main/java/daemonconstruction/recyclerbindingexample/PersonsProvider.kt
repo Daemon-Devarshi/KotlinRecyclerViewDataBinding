@@ -6,8 +6,8 @@ package daemonconstruction.recyclerbindingexample
 
 class PersonsProvider {
     companion object {
-        fun getPersons() : Array<Person> = arrayOf(Person(name = "Devarshi", designation = "Principal Consultant"),
-                Person(name = "Aniket", designation = "Lead Consultant"),
-                Person(name = "Rahul", designation = "Senior Consultant"))
+        fun getPersons() : Array<Person> = arrayOf(Person(name = "John", designation = "Principal Consultant"),
+                Person(name = "Joseph", designation = "Lead Consultant"),
+                Person(name = "Darren", designation = "Senior Consultant"))
     }
 }
