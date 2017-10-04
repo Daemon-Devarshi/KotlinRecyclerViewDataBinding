@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
+
         val personsAdapter = PersonsAdapter(PersonsProvider.getPersons())
         recyclerViewPersons.adapter = personsAdapter
         recyclerViewPersons.layoutManager = LinearLayoutManager(this)
